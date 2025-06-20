@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Byiringiro Saad</title>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <!-- Loading screen -->
+    <div class="loading" id="loading">
+      <div class="loader"></div>
+    </div>
+
+    <!-- Custom cursor -->
+    <div class="cursor" id="cursor"></div>
+    <div class="cursor-ring" id="cursor-ring"></div>
+
+    <!-- Navigation -->
+    <nav>
+      <div class="nav-container">
+        <a href="#home" class="logo">BS</a>
+        <ul>
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#work" class="nav-link">Work</a></li>
+          <li><a href="#experience" class="nav-link">Experience</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="section hero">
+      <div class="container">
+        <div class="hero-grid">
+          <div class="hero-content">
+            <h1>Building Digital Magic.</h1>
+            <p class="subtitle">Creative Frontend Developer & ALU Student</p>
+            <p class="description">
+              Currently turning caffeine into code at African Leadership
+              University. I craft beautiful, responsive websites that don't just
+              look good – they make users go "wow, how did they do that?"
+            </p>
+            <div class="hero-actions">
+              <a href="#work" class="btn btn-primary">See My Magic ✨</a>
+              <a href="#contact" class="btn btn-secondary">Connect With Me</a>
+            </div>
+          </div>
+          <div class="hero-visual">
+            <div class="hero-image">👨‍💻</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section about">
+      <div class="container">
+        <div class="about-grid">
+          <div>
+            <h2 class="section-title fade-in">About</h2>
+          </div>
+          <div>
+            <div class="about-content fade-in">
+              <p>
+                I'm a frontend developer who believes great websites should be
+                like good jokes – they shouldn't need explanation. Currently
+                studying at African Leadership University where I'm learning to
+                solve Africa's biggest challenges, one line of code at a time.
+              </p>
+              <p>
+                When I'm not debugging CSS (yes, that's a real hobby), you'll
+                find me exploring the latest frontend frameworks, arguing about
+                whether tabs or spaces are better (team spaces, obviously), and
+                probably drinking way too much coffee.
+              </p>
+              <p>
+                Fun fact: I once spent 3 hours fixing a bug that was just a
+                missing semicolon. We've all been there, right? Right?!
+              </p>
+            </div>
+            <div class="skills-list">
+              <div class="skill-item">
+                <h4>Frontend Magic</h4>
+                <p>React, Next.js, TypeScript, Tailwind CSS</p>
+              </div>
+              <div class="skill-item">
+                <h4>Design That Doesn't Suck</h4>
+                <p>Figma, Adobe Creative Suite, UI/UX Principles</p>
+              </div>
+              <div class="skill-item">
+                <h4>Code That Actually Works</h4>
+                <p>JavaScript, HTML5, CSS3, Git, APIs</p>
+              </div>
+              <div class="skill-item">
+                <h4>Student Life Essentials</h4>
+                <p>Deadline Management, Netflix Balance</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Work Section -->
+    <section id="work" class="section work">
+      <div class="container">
+        <div class="work-header fade-in">
+          <h2 class="section-title">Selected Work</h2>
+          <p
+            style="
+              color: var(--gray-600);
+              font-size: 1.1rem;
+              max-width: 600px;
+              margin: 0 auto;
+            "
+          >
+            Things I've Built (That Actually Work)
+          </p>
+        </div>
+        <div class="work-grid">
+          <div class="project-card">
+            <div class="project-image">🎬</div>
+            <div class="project-content">
+              <h3>TrailerFlix</h3>
+              <p>
+                Ever wanted to watch movie trailers without getting spoiled by
+                random YouTube comments? This streaming platform lets you search
+                and watch trailers in peace. Because sometimes you just want to
+                know if a movie is worth your Friday night without some stranger
+                telling you the ending.
+              </p>
+              <div class="project-tags">
+                <span class="tag">React</span>
+                <span class="tag">Movie API</span>
+                <span class="tag">JavaScript</span>
+                <span class="tag">Anti-Spoiler Technology</span>
+              </div>
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="project-image">📊</div>
+            <div class="project-content">
+              <h3>Projectia (In Progress)</h3>
+              <p>
+                A social task management app for business owners who want to run
+                their empire from anywhere. Think of it as giving business
+                owners superpowers to manage everything without being physically
+                everywhere. Currently in development and already causing
+                excitement among my test users.
+              </p>
+              <div class="project-tags">
+                <span class="tag">React</span>
+                <span class="tag">Node.js</span>
+                <span class="tag">Business Logic</span>
+                <span class="tag">Work in Progress</span>
+              </div>
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="project-image">🌤️</div>
+            <div class="project-content">
+              <h3>WeatherMood</h3>
+              <p>
+                A weather app that doesn't just tell you it's raining – it shows
+                you exactly what that rain looks like with beautiful
+                representative images. Plus all the weather stats you actually
+                care about, minus the ones you don't.
+              </p>
+              <div class="project-tags">
+                <span class="tag">CSS Magic</span>
+                <span class="tag">TypeScript</span>
+                <span class="tag">Weather API</span>
+                <span class="tag">Visual Storytelling</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section experience">
+      <div class="container">
+        <div class="work-header fade-in">
+          <h2 class="section-title">Experience</h2>
+          <p
+            style="
+              color: var(--gray-600);
+              font-size: 1.1rem;
+              max-width: 600px;
+              margin: 0 auto;
+            "
+          >
+            My Journey (So Far)
+          </p>
+        </div>
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-content">
+              <h3>Creative Frontend Developer</h3>
+              <div class="company">African Leadership University Student</div>
+              <div class="period">2024 - Present</div>
+              <p>
+                Studying at ALU while constantly pushing my coding boundaries.
+                Learning to build solutions for Africa's challenges while
+                perfecting the art of balancing academic deadlines with personal
+                project obsessions. Spoiler alert: the projects usually win.
+              </p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-content">
+              <h3>Freelance Developer & Personal Project Enthusiast</h3>
+              <div class="company">Self-Directed Learning & Building</div>
+              <div class="period">2022 - Forever</div>
+              <p>
+                Working on personal projects that solve real problems (and some
+                that just seemed cool at 3 AM). From movie trailer platforms to
+                weather apps, I'm constantly building, breaking, and rebuilding
+                things. The best classroom? My laptop screen at midnight.
+              </p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-content">
+              <h3>Self-Taught Code Explorer</h3>
+              <div class="company">Youtube, Coursera, The art of Googling</div>
+              <div class="period">2022 - Forever</div>
+              <p>
+                Started with "Hello World" and somehow ended up here. Spent
+                countless hours learning JavaScript, getting frustrated with
+                CSS, making friends with Stack Overflow, and discovering that
+                coding is basically organized problem-solving with a side of
+                creative chaos.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact">
+      <div class="container">
+        <div class="contact-content">
+          <h2 class="section-title fade-in">Let's Work Together</h2>
+          <p
+            class="fade-in"
+            style="
+              color: var(--gray-600);
+              font-size: 1.1rem;
+              margin-bottom: 2rem;
+            "
+          >
+            Got a cool project idea? Need a website that doesn't look like it's
+            from 2010? Or just want to chat about the latest JavaScript
+            framework? I'm always up for a good conversation!
+          </p>
+          <form class="contact-form fade-in" id="contact-form">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" required />
+              <div class="error" id="name-error">Please enter your name</div>
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required />
+              <div class="error" id="email-error">
+                Please enter a valid email address
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <input type="text" id="subject" name="subject" required />
+              <div class="error" id="subject-error">Please enter a subject</div>
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea
+                id="message"
+                name="message"
+                rows="5"
+                required
+              ></textarea>
+              <div class="error" id="message-error">
+                Please enter your message
+              </div>
+            </div>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <p>
+          © 2025 Byiringiro Saad. Made with ☕, 💻, and a healthy dose of ALU
+          spirit..
+        </p>
+      </div>
+    </footer>
+    <script src="./index.js"></script>
+  </body>
+</html>
